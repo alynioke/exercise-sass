@@ -69,11 +69,13 @@ Let's shorten this.
 * Now there is less code and no repetitions! And code is easier to manage, because if we need to change centering we can do so from 1 place!
 
 #### Operators
-* In `footer.scss` file create 2 variables: one answering for margin top on mobile, another answering for margin top on desktop ([example](https://github.com/alynioke/exercise-sass-ready/blob/main/sass/footer.scss#L2))
+* In `footer.scss` create 2 variables: one answering for margin top on mobile, another answering for margin top on desktop ([example](https://github.com/alynioke/exercise-sass-ready/blob/main/sass/footer.scss#L2))
 * Substitute martin top values in CSS for variables. 
 * Now, define margin bottom for mobile and desktop, as a half of top margin, by using Sass `/` division feature ([example](https://github.com/alynioke/exercise-sass-ready/blob/main/sass/footer.scss#L9))
 * Now, values will always be recalculated automatically, we don't need to adjust it manually!
 
 #### Mixins
-[TBC]
+* in `helpers.scss` define new mixin which will answer for setting width and height of the element based on passed parameter ([example](https://github.com/alynioke/exercise-sass-ready/commit/bd94eda132756ecdae40700227266661f0624007#diff-6b35906a2d871acb71bae44d81be370207a70484f8cc646eede944634b36b0a7R8))
+* for recipe image for mobile and desktop Media Query use 1 line mixin to define square dimensions instead of width and height ([example](https://github.com/alynioke/exercise-sass-ready/blob/main/sass/recipes.scss#L35)) 
+* Mixins allow you to define styles that can be re-used throughout your stylesheet!
   

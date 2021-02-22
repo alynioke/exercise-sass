@@ -169,7 +169,7 @@ body {
 
 .recipe .link {
   position: relative;
-  display: block;
+  display: table-cell;
 }
 .recipe .title {
   font-family: 'playfair_displayregular';

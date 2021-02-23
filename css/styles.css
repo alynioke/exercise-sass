@@ -154,7 +154,6 @@ body {
 .recipe .image {
   width: 250px;
   height: 250px;
-  height: auto;
   position: relative;
   display: block;
   object-fit: cover;

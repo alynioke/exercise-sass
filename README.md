@@ -30,7 +30,7 @@ Goal of project is to let you exercise with Sass - how to install it, and how to
 1. Open the `package.json` file in a code editor.
 2. In the `scripts` section, put `,` in the end of line of test command.
 3. Add Sass command on the next line: `"sass": "sass sass/main.scss css/styles.css --watch"` (this is [how it should looks like](https://github.com/alynioke/exercise-sass-ready/blob/main/package.json#L8)). The watch flag (`--watch`) tells Sass to watch the `main.scss` file in the `sass` directory for changes and output them in `styles.css` in the `css` directory.
-4. In the terminal write `node run sass` - it will use command you just created in `package.json` and will watch for all changes inside `sass/main.scss`.
+4. In the terminal write `npm run sass` - it will use command you just created in `package.json` and will watch for all changes inside `sass/main.scss`.
 5. Open`sass/main.scss` in code editor and save this file - in terminal you should green message confirming that code is saved:
 ![image](https://user-images.githubusercontent.com/528887/108642539-728e6c00-74ae-11eb-963a-1bd54c45bb1b.png)
 

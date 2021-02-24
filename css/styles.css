@@ -49,6 +49,13 @@ body {
   fill: black;
 }
 
+@media only screen and (min-width: 850px) {
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+}
+
 .links {
   display: flex;
   align-items: center;
